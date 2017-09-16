@@ -2,6 +2,7 @@ package cn.longzzai.service;
 
 import cn.longzzai.pojo.BookDetail;
 import cn.longzzai.pojo.MajorCate;
+import cn.longzzai.pojo.ZzaiResult;
 
 /**
  * 书籍主分类
@@ -11,15 +12,17 @@ import cn.longzzai.pojo.MajorCate;
  */
 public interface MajorCateService {
 
-    MajorCate findById(int majorCateId);
+    ZzaiResult findById(int majorCateId);
 
-    MajorCate findByName(String majorCateName);
+    ZzaiResult findAll();
 
-    boolean save(String majorCateName);
+    ZzaiResult findByName(String majorCateName);
 
-    boolean update(MajorCate majorCate);
+    ZzaiResult save(String majorCateName);
 
-    MajorCate delete(int majorCateId);
+    ZzaiResult update(MajorCate majorCate);
 
-    MajorCate delete(String majorCateName);
+    ZzaiResult delete(int majorCateId);
+
+    ZzaiResult delete(String majorCateName);
 }
