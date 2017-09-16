@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zhuishu-common" />
+        <module name="zhuishu-manager-mapper" />
+        <module name="zhuishu-manager-pojo" />
+        <module name="zhuishu-manager-service" />
+        <module name="zhuishu-manager-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zhuishu-common" target="1.7" />
+      <module name="zhuishu-manager" target="1.7" />
+      <module name="zhuishu-manager-mapper" target="1.7" />
+      <module name="zhuishu-manager-pojo" target="1.7" />
+      <module name="zhuishu-manager-service" target="1.7" />
+      <module name="zhuishu-manager-web" target="1.7" />
+      <module name="zhuishu-parent" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

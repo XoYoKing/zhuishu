@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zhuishu-manager-web:war">
+    <output-path>$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/target</output-path>
+    <root id="archive" name="zhuishu-manager-web.war">
+      <element id="artifact" artifact-name="zhuishu-manager-web:war exploded" />
+    </root>
+  </artifact>
+</component>

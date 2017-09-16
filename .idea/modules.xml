@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/zhuishu-common/zhuishu-common.iml" filepath="$PROJECT_DIR$/zhuishu-common/zhuishu-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager.iml" filepath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/zhuishu-manager-mapper.iml" filepath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/zhuishu-manager-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-pojo/zhuishu-manager-pojo.iml" filepath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-pojo/zhuishu-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/zhuishu-manager-service.iml" filepath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/zhuishu-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/zhuishu-manager-web.iml" filepath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/zhuishu-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuishu-parent/zhuishu-parent.iml" filepath="$PROJECT_DIR$/zhuishu-parent/zhuishu-parent.iml" />
+    </modules>
+  </component>
+</project>
