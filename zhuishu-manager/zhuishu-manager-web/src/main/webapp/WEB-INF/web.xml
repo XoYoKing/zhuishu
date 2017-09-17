@@ -22,6 +22,24 @@
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
 
+	<!-- Log4j配置 -->
+	<context-param>
+		<param-name>log4jConfigLocation</param-name>
+		<param-value>classpath:log4j/log4j.xml</param-value>
+	</context-param>
+	<!-- 加载log4j配置文件 -->
+	<listener>
+		<listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
+	</listener>
+	<!--&lt;!&ndash;配置日志log4j&ndash;&gt;-->
+	<!--<context-param>-->
+		<!--<param-name>log4jConfigLocation</param-name>-->
+		<!--<param-value>classpath:log4j.properties</param-value>-->
+	<!--</context-param>-->
+	<!--&lt;!&ndash; 加载log4j配置文件 &ndash;&gt; -->
+	<!--<listener>-->
+		<!--<listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>-->
+	<!--</listener>-->
 	<!-- 解决post乱码 -->
 	<filter>
 		<filter-name>CharacterEncodingFilter</filter-name>

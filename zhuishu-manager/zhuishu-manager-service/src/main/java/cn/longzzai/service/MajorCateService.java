@@ -1,8 +1,10 @@
 package cn.longzzai.service;
 
-import cn.longzzai.pojo.BookDetail;
+import cn.longzzai.exception.BookException;
 import cn.longzzai.pojo.MajorCate;
 import cn.longzzai.pojo.ZzaiResult;
+
+import java.util.List;
 
 /**
  * 书籍主分类
@@ -12,17 +14,20 @@ import cn.longzzai.pojo.ZzaiResult;
  */
 public interface MajorCateService {
 
-    ZzaiResult findById(int majorCateId);
+    ZzaiResult findById(int majorCateId) throws BookException;
 
     ZzaiResult findAll();
 
-    ZzaiResult findByName(String majorCateName);
+    ZzaiResult findByName(String majorCateName) throws BookException;
 
-    ZzaiResult save(String majorCateName);
+    //默认0 male   1 female
+    ZzaiResult save(String majorCateName ,int sex) throws BookException;
 
-    ZzaiResult update(MajorCate majorCate);
+    ZzaiResult update(MajorCate majorCate) throws BookException;
 
-    ZzaiResult delete(int majorCateId);
+    ZzaiResult delete(int majorCateId) throws BookException;
 
-    ZzaiResult delete(String majorCateName);
+    ZzaiResult delete(String majorCateName) throws BookException;
+
+    ZzaiResult updateByList(List<MajorCate> majorCateList);
 }

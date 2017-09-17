@@ -39,8 +39,8 @@
 
         <!-- !!!! Table Configurations !!!! -->
 
-        <table tableName="book_detail"/>
+        <!--<table tableName="book_detail"/>-->
         <table tableName="major_cate"/>
-        <table tableName="minor_cate"/>
+        <!--<table tableName="minor_cate"/>-->
     </context>
 </generatorConfiguration>

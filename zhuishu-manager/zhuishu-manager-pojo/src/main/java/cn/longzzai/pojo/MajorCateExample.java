@@ -323,6 +323,66 @@ public class MajorCateExample {
             addCriterion("major_cate_name not between", value1, value2, "majorCateName");
             return (Criteria) this;
         }
+
+        public Criteria andMajorCateSexIsNull() {
+            addCriterion("major_cate_sex is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andMajorCateSexIsNotNull() {
+            addCriterion("major_cate_sex is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andMajorCateSexEqualTo(Byte value) {
+            addCriterion("major_cate_sex =", value, "majorCateSex");
+            return (Criteria) this;
+        }
+
+        public Criteria andMajorCateSexNotEqualTo(Byte value) {
+            addCriterion("major_cate_sex <>", value, "majorCateSex");
+            return (Criteria) this;
+        }
+
+        public Criteria andMajorCateSexGreaterThan(Byte value) {
+            addCriterion("major_cate_sex >", value, "majorCateSex");
+            return (Criteria) this;
+        }
+
+        public Criteria andMajorCateSexGreaterThanOrEqualTo(Byte value) {
+            addCriterion("major_cate_sex >=", value, "majorCateSex");
+            return (Criteria) this;
+        }
+
+        public Criteria andMajorCateSexLessThan(Byte value) {
+            addCriterion("major_cate_sex <", value, "majorCateSex");
+            return (Criteria) this;
+        }
+
+        public Criteria andMajorCateSexLessThanOrEqualTo(Byte value) {
+            addCriterion("major_cate_sex <=", value, "majorCateSex");
+            return (Criteria) this;
+        }
+
+        public Criteria andMajorCateSexIn(List<Byte> values) {
+            addCriterion("major_cate_sex in", values, "majorCateSex");
+            return (Criteria) this;
+        }
+
+        public Criteria andMajorCateSexNotIn(List<Byte> values) {
+            addCriterion("major_cate_sex not in", values, "majorCateSex");
+            return (Criteria) this;
+        }
+
+        public Criteria andMajorCateSexBetween(Byte value1, Byte value2) {
+            addCriterion("major_cate_sex between", value1, value2, "majorCateSex");
+            return (Criteria) this;
+        }
+
+        public Criteria andMajorCateSexNotBetween(Byte value1, Byte value2) {
+            addCriterion("major_cate_sex not between", value1, value2, "majorCateSex");
+            return (Criteria) this;
+        }
     }
 
     /**
