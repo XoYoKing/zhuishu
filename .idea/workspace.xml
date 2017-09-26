@@ -1,58 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4051d331-de7b-429d-9085-986afe5b97a2" name="Default" comment="简单controller测试通过">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-common/src/main/java/cn/longzzai/utils/HttpClientUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-common/src/main/java/cn/longzzai/utils/JsonUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-common/src/main/resources/rebel.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/src/main/resources/rebel.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/VO/CateAllListVO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/VO/CateVO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/VO/MajorCateListVO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/VO/MajorCateVO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/utils/UpdateCateAllFromOnline.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/utils/UpdateMajorFromOnline.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/resources/rebel.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/BookDetailService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MinorCateService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MinorCateServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/resources/rebel.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/java/cn/longzzai/controller/MinorCateController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/log4j/log4j.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/properties/slf4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-parent/src/main/resources/rebel.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j13_1_0_1.xml" afterPath="" />
+    <list default="true" id="4051d331-de7b-429d-9085-986afe5b97a2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/layer/1.9.3/skin/default/icon-ext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/layer/1.9.3/skin/default/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/layer/1.9.3/skin/default/loading-0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/layer/1.9.3/skin/default/loading-1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/layer/1.9.3/skin/default/loading-2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/layer/1.9.3/skin/mono/default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-common/src/main/java/cn/longzzai/pojo/PageListResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-common/src/main/java/cn/longzzai/utils/CopyObjectUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/VO/BookDetailAtFindListVO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/VO/BookListAtFindListVO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/VO/BookResultVO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/utils/BookDetailUpdateOnlineUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/BookDetailServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/java/cn/longzzai/controller/BookDetailController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/java/cn/longzzai/controller/PageController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/css/H-ui.admin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/css/H-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/css/H-ui.login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/css/H-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/css/H-ui.reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/js/H-ui.admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/js/H-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/index1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/item-add.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/product-add.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/product-category-add.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/product-category.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/product-list-detail.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/product-list.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/product-list1.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/welcome.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/west.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/jquery/1.9.1/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/jquery/1.9.1/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/layer/1.9.3/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/layer/1.9.3/doc/jquery下载.url" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/layer/1.9.3/doc/layer交流.url" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/layer/1.9.3/doc/layer官网.url" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/layer/1.9.3/extend/layer.ext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/layer/1.9.3/layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/layer/1.9.3/skin/layer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/layer/1.9.3/skin/layer.ext.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/layer/1.9.3/skin/mono/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/layer/1.9.3/更新日志.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-common/target/zhuishu-common.jar" afterPath="$PROJECT_DIR$/zhuishu-common/target/zhuishu-common.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/zhuishu_manager_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/zhuishu_manager_web_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-common/pom.xml" afterPath="$PROJECT_DIR$/zhuishu-common/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-common/src/main/java/cn/longzzai/myenum/ResultEnum.java" afterPath="$PROJECT_DIR$/zhuishu-common/src/main/java/cn/longzzai/myenum/ResultEnum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-common/src/main/resources/generator.xml" afterPath="$PROJECT_DIR$/zhuishu-common/src/main/resources/generator.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/zhuishu-common/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/zhuishu-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/zhuishu-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-common/zhuishu-common.iml" afterPath="$PROJECT_DIR$/zhuishu-common/zhuishu-common.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/pom.xml" afterPath="$PROJECT_DIR$/zhuishu-manager/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/mapper/MajorCateMapper.xml" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/mapper/MajorCateMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/zhuishu-manager-mapper.iml" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/zhuishu-manager-mapper.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-pojo/src/main/java/cn/longzzai/pojo/MajorCate.java" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-pojo/src/main/java/cn/longzzai/pojo/MajorCate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-pojo/src/main/java/cn/longzzai/pojo/MajorCateExample.java" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-pojo/src/main/java/cn/longzzai/pojo/MajorCateExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-pojo/src/main/java/cn/longzzai/pojo/MinorCate.java" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-pojo/src/main/java/cn/longzzai/pojo/MinorCate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-pojo/src/main/java/cn/longzzai/pojo/BookDetail.java" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-pojo/src/main/java/cn/longzzai/pojo/BookDetail.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-pojo/zhuishu-manager-pojo.iml" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-pojo/zhuishu-manager-pojo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/pom.xml" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MajorCateService.java" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MajorCateService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/BookDetailService.java" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/BookDetailService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MajorCateServiceImpl.java" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MajorCateServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/zhuishu-manager-service.iml" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/zhuishu-manager-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/pom.xml" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/java/cn/longzzai/controller/MajorCateController.java" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/java/cn/longzzai/controller/MajorCateController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/zhuishu-manager-web.iml" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/zhuishu-manager-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MinorCateServiceImpl.java" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MinorCateServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/java/cn/longzzai/controller/MinorCateController.java" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/java/cn/longzzai/controller/MinorCateController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/spring/springmvc.xml" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/spring/springmvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager.iml" afterPath="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhuishu-parent/pom.xml" afterPath="$PROJECT_DIR$/zhuishu-parent/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/zhuishu-parent/target/" />
     <ignored path="$PROJECT_DIR$/zhuishu-common/target/" />
@@ -88,138 +99,40 @@
     <favorites_list name="zhuishu" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MinorCateServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MinorCateServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="98" column="33" lean-forward="false" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinorCate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-pojo/src/main/java/cn/longzzai/pojo/MinorCate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
-              <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="48" column="11" lean-forward="false" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhuishu-manager/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinorCateController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/java/cn/longzzai/controller/MinorCateController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-              <folding>
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
-                <element signature="e#1306#1307#0" expanded="true" />
-                <element signature="e#1367#1368#0" expanded="true" />
-                <element signature="e#1873#1874#0" expanded="true" />
-                <element signature="e#1930#1931#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookDetailMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/mapper/BookDetailMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookDetailService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/BookDetailService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-328">
-              <caret line="48" column="44" lean-forward="false" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MajorCateServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MajorCateServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="86" column="9" lean-forward="false" selection-start-line="83" selection-start-column="30" selection-end-line="86" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinorCateService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MinorCateService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="41" column="53" lean-forward="false" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="mybatis-generator-config" />
-        <option value="Enum" />
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>majot</find>
       <find>Major</find>
       <find>major</find>
       <find>主</find>
+      <find>majot</find>
+      <find>select</find>
+      <find>BOOK_CATE_UPDATE_FAILD</find>
+      <find>BOOK_UPDATE_FAILD</find>
+      <find>zNodes</find>
+      <find>fn</find>
+      <find>zTree</find>
+      <find>备注</find>
+      <find>beforeClick</find>
+      <find>callback</find>
+      <find>390</find>
+      <find>显示</find>
+      <find>下</find>
+      <find>booknumber</find>
+      <find>showList</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -239,37 +152,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zhuishu-common/src/main/java/cn/longzzai/BookException.java" />
-        <option value="$PROJECT_DIR$/zhuishu-common/src/main/java/cn/longzzai/exception/BookException.java" />
-        <option value="$PROJECT_DIR$/zhuishu-common/src/main/java/cn/longzzai/myenum/CodeEnum.java" />
-        <option value="$PROJECT_DIR$/zhuishu-common/src/main/java/cn/longzzai/utils/EnumUtil.java" />
-        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/test/java/cn/longzzai/service/MajorCateServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/properties/Db.properties" />
-        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/spring/applicationContext-trans.xml" />
-        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/mapper/BookDetailMapper.xml" />
-        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/mapper/MinorCateMapper.xml" />
-        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/spring/applicationContext-dao.xml" />
-        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/pom.xml" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.1.3.RELEASE/spring-aop-4.1.3.RELEASE-sources.jar!/org/springframework/aop/support/AopUtils.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.1.3.RELEASE/spring-tx-4.1.3.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.1.3.RELEASE/spring-aop-4.1.3.RELEASE-sources.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.1.3.RELEASE/spring-aop-4.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.3.RELEASE/spring-webmvc-4.1.3.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.3.RELEASE/spring-webmvc-4.1.3.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java" />
-        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/spring/applicationContext-slf4j.xml" />
-        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/properties/slf4j.properties" />
-        <option value="$PROJECT_DIR$/zhuishu-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/zhuishu-common/pom.xml" />
-        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/pom.xml" />
-        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/pom.xml" />
-        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/log4j/log4j.xml" />
-        <option value="$PROJECT_DIR$/zhuishu-common/src/main/java/cn/longzzai/myenum/ResultEnum.java" />
         <option value="$PROJECT_DIR$/zhuishu-common/src/main/resources/generator.xml" />
         <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MajorCateService.java" />
         <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/VO/MajorCateVO.java" />
@@ -284,12 +167,42 @@
         <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/VO/CateAllListVO.java" />
         <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/VO/CateVO.java" />
         <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/utils/UpdateCateAllFromOnline.java" />
-        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MajorCateServiceImpl.java" />
         <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MinorCateService.java" />
-        <option value="$PROJECT_DIR$/zhuishu-manager/pom.xml" />
-        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/java/cn/longzzai/controller/MinorCateController.java" />
-        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MinorCateServiceImpl.java" />
         <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-pojo/src/main/java/cn/longzzai/pojo/MinorCate.java" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-pojo/src/main/java/cn/longzzai/pojo/BookDetail.java" />
+        <option value="$PROJECT_DIR$/zhuishu-common/pom.xml" />
+        <option value="$PROJECT_DIR$/zhuishu-common/src/main/java/cn/longzzai/utils/CopyObjectUtil.java" />
+        <option value="$PROJECT_DIR$/zhuishu-common/src/main/java/cn/longzzai/myenum/ResultEnum.java" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MajorCateServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MinorCateServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zhuishu-common/src/main/java/cn/longzzai/pojo/PageListResult.java" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/BookDetailService.java" />
+        <option value="$PROJECT_DIR$/zhuishu-common/src/main/java/cn/longzzai/myenum/BookSpecialtyEnum.java" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/VO/BookResultVO.java" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/VO/BookListAtFindListVO.java" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/VO/BookDetailAtFindListVO.java" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/utils/BookDetailUpdateOnlineUtil.java" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.1.3.RELEASE/spring-aop-4.1.3.RELEASE-sources.jar!/org/springframework/aop/support/AopUtils.java" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.1.3.RELEASE/spring-tx-4.1.3.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.java" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/BookDetailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/java/cn/longzzai/controller/BookDetailController.java" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/java/cn/longzzai/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/west.jsp" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/index1.html" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/item-list.jsp" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/welcome.jsp" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/product-add.html" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/java/cn/longzzai/controller/MinorCateController.java" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/product-category-add.jsp" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/product-category.jsp" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/product-list.jsp" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/product-list1.jsp" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/js/de_DE.txt" />
+        <option value="$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/product-list-detail.jsp" />
       </list>
     </option>
   </component>
@@ -347,10 +260,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="182" />
-    <option name="y" value="159" />
-    <option name="width" value="896" />
-    <option name="height" value="560" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -438,76 +351,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhuishu-manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhuishu-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="zhuishu-manager-mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhuishu-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="zhuishu-manager-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhuishu-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="zhuishu-manager-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhuishu-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="zhuishu-manager-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhuishu-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="zhuishu-manager-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhuishu-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="zhuishu-manager-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="longzzai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhuishu-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="zhuishu-manager-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="longzzai" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhuishu-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="zhuishu-manager-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
@@ -567,6 +417,100 @@
             </path>
             <path>
               <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhuishu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="zhuishu-manager-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhuishu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="zhuishu-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhuishu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="zhuishu-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhuishu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="zhuishu-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhuishu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="zhuishu-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhuishu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="zhuishu-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="longzzai" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhuishu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="zhuishu-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="longzzai" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhuishu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="zhuishu-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhuishu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="zhuishu-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhuishu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="zhuishu-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhuishu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="zhuishu-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="H-ui.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="zhuishu" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhuishu-parent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -574,7 +518,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
@@ -588,28 +531,30 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tianti/pom.xml" />
+    <property name="SearchEverywhereHistoryKey" value="mt-20&#9;null&#9;null&#10;de_DE&#9;FILE&#9;file://E:/java/IDEAhome/zuishu/longzzai/zhuishu/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/js/de_DE.txt&#10;lengthMenu&#9;null&#9;null&#10;va-t&#9;null&#9;null&#10;testIframe&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="cn.longzzai.service" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\java\IDEAhome\zuishu\longzzai\zhuishu\zhuishu-manager\zhuishu-manager-web\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.longzzai.utils" />
-      <recent name="cn.longzzai.controller" />
       <recent name="cn.longzzai.service" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\IDEAhome\zuishu\longzzai\zhuishu\zhuishu-manager\zhuishu-manager-web\src\main\webapp\WEB-INF\jsp" />
+      <recent name="E:\java\IDEAhome\zuishu\longzzai\zhuishu\zhuishu-manager\zhuishu-manager-web\src\main\webapp\WEB-INF\css" />
+      <recent name="E:\java\IDEAhome\zuishu\longzzai\zhuishu\zhuishu-manager\zhuishu-manager-web\src\main\webapp\WEB-INF\lib" />
+      <recent name="E:\java\IDEAhome\zuishu\longzzai\zhuishu\zhuishu-manager\zhuishu-manager-web\src\main\webapp\WEB-INF\js" />
       <recent name="E:\java\IDEAhome\zuishu\longzzai\zhuishu\zhuishu-manager\zhuishu-manager-service\src\main\java\cn\longzzai\service" />
-      <recent name="E:\java\IDEAhome\zuishu\longzzai\zhuishu\zhuishu-common\src\main\java\cn\longzzai\utils" />
-      <recent name="E:\java\IDEAhome\zuishu\longzzai\zhuishu\zhuishu-manager\zhuishu-manager-mapper\src\main\java\cn\longzzai\mapper" />
-      <recent name="E:\java\IDEAhome\zuishu\longzzai\zhuishu\zhuishu-manager\zhuishu-manager-pojo\src\main\java\cn\longzzai\pojo" />
-      <recent name="E:\java\IDEAhome\zuishu\longzzai\zhuishu\zhuishu-manager\zhuishu-manager-web\src\main\resources\spring" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.longzzai.utils" />
+      <recent name="cn.longzzai.controller" />
+      <recent name="cn.longzzai.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java\IDEAhome\zuishu\longzzai\zhuishu\zhuishu-manager\zhuishu-manager-web\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1085,6 +1030,10 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS,SHOW_NON_PUBLIC" />
+  </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\longcho\AppData\Roaming\Subversion</configuration>
   </component>
@@ -1105,7 +1054,11 @@
       <workItem from="1505611496832" duration="94000" />
       <workItem from="1505611837749" duration="193000" />
       <workItem from="1505612090507" duration="3823000" />
-      <workItem from="1505616030989" duration="29380000" />
+      <workItem from="1505616030989" duration="59173000" />
+      <workItem from="1505727438349" duration="18981000" />
+      <workItem from="1506066627205" duration="2024000" />
+      <workItem from="1506124782616" duration="16861000" />
+      <workItem from="1506243720593" duration="51916000" />
     </task>
     <task id="LOCAL-00001" summary="简单controller测试通过">
       <created>1505605995313</created>
@@ -1114,7 +1067,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505605995313</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="书籍分类管理完成">
+      <created>1505655693316</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505655693317</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1126,7 +1086,16 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67510000" />
+    <option name="totallyTimeSpent" value="187085000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1142,23 +1111,22 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993174" sideWeight="0.4806867" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43230945" sideWeight="0.4806867" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.49785408" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.4892704" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28379828" sideWeight="0.47727272" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21405579" sideWeight="0.47326508" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28379828" sideWeight="0.51269037" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28379828" sideWeight="0.52272725" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28379828" sideWeight="0.51269037" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23551503" sideWeight="0.52673495" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1166,6 +1134,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1176,19 +1145,83 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="简单controller测试通过" />
-    <option name="LAST_COMMIT_MESSAGE" value="简单controller测试通过" />
+    <MESSAGE value="书籍分类管理完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="书籍分类管理完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/BookDetailServiceImpl.java</url>
+          <line>121</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/BookDetailServiceImpl.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/utils/BookDetailUpdateOnlineUtil.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/utils/BookDetailUpdateOnlineUtil.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/utils/BookDetailUpdateOnlineUtil.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/utils/BookDetailUpdateOnlineUtil.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/java/cn/longzzai/controller/BookDetailController.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/java/cn/longzzai/controller/BookDetailController.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/BookDetailServiceImpl.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/BookDetailServiceImpl.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/BookDetailServiceImpl.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <default-breakpoints>
-        <breakpoint enabled="true" type="javascript-exception">
-          <properties />
-        </breakpoint>
-      </default-breakpoints>
-      <option name="time" value="55" />
+      <option name="time" value="107" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1197,11 +1230,429 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/spring/applicationContext-service.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.1.3.RELEASE/spring-aop-4.1.3.RELEASE-sources.jar!/org/springframework/aop/support/AopUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="316" column="0" lean-forward="false" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.1.3.RELEASE/spring-tx-4.1.3.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="266" column="0" lean-forward="false" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1750">
+          <caret line="70" column="36" lean-forward="false" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/item-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/west.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/java/cn/longzzai/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/layer/1.9.3/doc/layer交流.url">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/css/H-ui.admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="102" lean-forward="false" selection-start-line="2" selection-start-column="102" selection-end-line="2" selection-end-column="102" />
+          <folding>
+            <element signature="e#4140#4146#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/product-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <marker date="1506126101436" expanded="true" signature="10617:10625" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/images/loading.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/java/cn/longzzai/controller/MajorCateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MinorCateService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/javax/servlet/http/HttpServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17200">
+          <caret line="727" column="0" lean-forward="false" selection-start-line="727" selection-start-column="0" selection-end-line="727" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17300">
+          <caret line="747" column="0" lean-forward="false" selection-start-line="747" selection-start-column="0" selection-end-line="747" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MinorCateServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2725">
+          <caret line="119" column="52" lean-forward="false" selection-start-line="119" selection-start-column="52" selection-end-line="119" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/jquery/1.9.1/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1425">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="123" column="41" lean-forward="false" selection-start-line="123" selection-start-column="32" selection-end-line="123" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/zTree/v3/js/jquery.ztree.core-3.5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="620" column="32" lean-forward="true" selection-start-line="620" selection-start-column="32" selection-end-line="620" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/VO/CateVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/VO/CateAllListVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/utils/UpdateCateAllFromOnline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/zTree/v3/js/jquery.ztree.all-3.5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1549" column="61" lean-forward="true" selection-start-line="1549" selection-start-column="61" selection-end-line="1549" selection-end-column="61" />
+          <folding>
+            <marker date="1432516954000" expanded="true" signature="106324:106432" ph="..." />
+            <marker date="1432516954000" expanded="true" signature="107135:107148" ph="..." />
+            <marker date="1432516954000" expanded="true" signature="108016:108029" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/java/cn/longzzai/controller/MinorCateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="37" column="11" lean-forward="false" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/zTree/v3/demo/en/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="152" column="23" lean-forward="false" selection-start-line="152" selection-start-column="18" selection-end-line="152" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/zTree/v3/demo/cn/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/DD_belatedPNG_0.0.8a-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-transitional.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="574" column="19" lean-forward="true" selection-start-line="574" selection-start-column="19" selection-end-line="574" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/jquery/1.9.1/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="2045" column="35" lean-forward="false" selection-start-line="2045" selection-start-column="35" selection-end-line="2045" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/product-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#6622#6830#0#HTML" expanded="false" />
+            <element signature="e#7308#7326#0#HTML" expanded="false" />
+            <element signature="e#8585#9788#0#HTML" expanded="false" />
+            <element signature="e#10164#11479#0#HTML" expanded="false" />
+            <element signature="e#10323#11075#0#HTML" expanded="false" />
+            <element signature="e#10654#11057#0#HTML" expanded="false" />
+            <element signature="e#11131#11465#0#HTML" expanded="false" />
+            <element signature="e#12139#12290#0#HTML" expanded="false" />
+            <element signature="e#12348#12499#0#HTML" expanded="false" />
+            <element signature="e#12552#13499#0#HTML" expanded="false" />
+            <element signature="e#13550#14018#0#HTML" expanded="false" />
+            <element signature="e#14070#14537#0#HTML" expanded="false" />
+            <element signature="e#14594#14827#0#HTML" expanded="false" />
+            <element signature="e#14885#15036#0#HTML" expanded="false" />
+            <element signature="e#15086#15254#0#HTML" expanded="false" />
+            <marker date="1506423548309" expanded="true" signature="9169:9189" ph="..." />
+            <marker date="1506423548309" expanded="true" signature="9292:9300" ph="&amp;##xe6de;" />
+            <marker date="1506423548309" expanded="true" signature="9320:9340" ph="..." />
+            <marker date="1506423548309" expanded="true" signature="9479:9487" ph="&amp;##xe6df;" />
+            <marker date="1506423548309" expanded="true" signature="9507:9527" ph="..." />
+            <marker date="1506423548309" expanded="true" signature="9644:9652" ph="&amp;##xe6e2;" />
+            <marker date="1506423548309" expanded="true" signature="13675:13695" ph="..." />
+            <marker date="1506423548309" expanded="true" signature="13785:13793" ph="&amp;##xe603;" />
+            <marker date="1506423548309" expanded="true" signature="14195:14215" ph="..." />
+            <marker date="1506423548309" expanded="true" signature="14304:14312" ph="&amp;##xe6de;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/product-category-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="31" column="76" lean-forward="false" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="238" selection-end-column="7" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#3;n#ul#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="93" column="13" lean-forward="true" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/lib/datatables/1.10.0/jquery.dataTables.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="126" column="460" lean-forward="false" selection-start-line="126" selection-start-column="460" selection-end-line="126" selection-end-column="460" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/localedata.jar!/sun/text/resources/de/FormatData_de_DE.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/js/H-ui.admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3575">
+          <caret line="164" column="25" lean-forward="true" selection-start-line="164" selection-start-column="25" selection-end-line="164" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/css/H-ui.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-819">
+          <caret line="11" column="12960" lean-forward="false" selection-start-line="11" selection-start-column="12960" selection-end-line="11" selection-end-column="12960" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/js/H-ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="106" column="17" lean-forward="true" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1438937778000" expanded="true" signature="5891:5903" ph="..." />
+            <marker date="1438937778000" expanded="true" signature="5905:5914" ph="&amp;##xf0023;" />
+            <marker date="1438937778000" expanded="true" signature="10953:11000" ph="..." />
+            <marker date="1438937778000" expanded="true" signature="11072:11095" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/BookDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/BookDetailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-pojo/src/main/java/cn/longzzai/pojo/BookDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/java/cn/longzzai/controller/BookDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/css/H-ui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="936" column="90" lean-forward="false" selection-start-line="936" selection-start-column="90" selection-end-line="936" selection-end-column="90" />
+          <folding>
+            <marker date="1439926094000" expanded="true" signature="7657:7681" ph="{...}" />
+            <marker date="1439926094000" expanded="true" signature="8237:8334" ph="{...}" />
+            <marker date="1439926094000" expanded="true" signature="29000:29039" ph="{...}" />
+            <marker date="1439926094000" expanded="true" signature="29089:29136" ph="{...}" />
+            <marker date="1439926094000" expanded="true" signature="47133:47175" ph="{...}" />
+            <marker date="1439926094000" expanded="true" signature="112922:112961" ph="{...}" />
+            <marker date="1439926094000" expanded="true" signature="113074:113121" ph="{...}" />
+            <marker date="1439926094000" expanded="true" signature="115260:115335" ph="{...}" />
+            <marker date="1439926094000" expanded="true" signature="115352:115428" ph="{...}" />
+            <marker date="1439926094000" expanded="true" signature="115937:116012" ph="{...}" />
+            <marker date="1439926094000" expanded="true" signature="116029:116105" ph="{...}" />
+            <marker date="1439926094000" expanded="true" signature="120890:120964" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1213,448 +1664,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/rebel.xml">
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/product-list-detail.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="30" column="95" lean-forward="false" selection-start-line="30" selection-start-column="95" selection-end-line="30" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.18/lombok-1.16.18-sources.jar!/lombok/extern/log4j/Log4j.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="55" column="30" lean-forward="false" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.1.3.RELEASE/spring-core-4.1.3.RELEASE-sources.jar!/org/springframework/util/Log4jConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="119" column="30" lean-forward="false" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
+        <state relative-caret-position="202">
+          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#5294#5295#0" expanded="false" />
-            <element signature="e#5322#5323#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6194#6345#0#HTML" expanded="false" />
+            <element signature="e#6403#6554#0#HTML" expanded="false" />
+            <element signature="e#6607#7554#0#HTML" expanded="false" />
+            <element signature="e#7605#8073#0#HTML" expanded="false" />
+            <element signature="e#8125#8592#0#HTML" expanded="false" />
+            <element signature="e#8649#8882#0#HTML" expanded="false" />
+            <element signature="e#8940#9091#0#HTML" expanded="false" />
+            <marker date="1506432532691" expanded="true" signature="5401:5421" ph="..." />
+            <marker date="1506432532691" expanded="true" signature="5524:5532" ph="&amp;##xe6de;" />
+            <marker date="1506432532691" expanded="true" signature="5552:5572" ph="..." />
+            <marker date="1506432532691" expanded="true" signature="5711:5719" ph="&amp;##xe6df;" />
+            <marker date="1506432532691" expanded="true" signature="5739:5759" ph="..." />
+            <marker date="1506432532691" expanded="true" signature="5876:5884" ph="&amp;##xe6e2;" />
+            <marker date="1506432532691" expanded="true" signature="7730:7750" ph="..." />
+            <marker date="1506432532691" expanded="true" signature="7840:7848" ph="&amp;##xe603;" />
+            <marker date="1506432532691" expanded="true" signature="8250:8270" ph="..." />
+            <marker date="1506432532691" expanded="true" signature="8359:8367" ph="&amp;##xe6de;" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/spring/applicationContext-slf4j.xml">
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/js/de_DE.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="125">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.18/lombok-1.16.18-sources.jar!/lombok/extern/slf4j/Slf4j.java">
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/product-list1.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        <state relative-caret-position="-1475">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/spring/applicationContext-dao.xml">
+    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/jsp/product-category.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        <state relative-caret-position="225">
+          <caret line="27" column="235" lean-forward="true" selection-start-line="27" selection-start-column="235" selection-end-line="27" selection-end-column="246" />
           <folding>
-            <element signature="n#bean#0;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#bean#1;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#bean#2;n#beans#0;n#!!top" expanded="false" />
+            <element signature="e#3994#5223#0#HTML" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/properties/slf4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="7" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="94" column="25" lean-forward="false" selection-start-line="90" selection-start-column="11" selection-end-line="94" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-pojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1525">
-          <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="61" column="12" lean-forward="false" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/resources/log4j/log4j.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="87" lean-forward="false" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-common/src/main/resources/generator.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-common/src/main/java/cn/longzzai/utils/MybatisGenerateMapperUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-pojo/src/main/java/cn/longzzai/pojo/MajorCateExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/mapper/MajorCateMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/VO/MajorCateVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-common/src/main/java/cn/longzzai/utils/HttpClientUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="method#doGet#0;class#HttpClientUtil#0" expanded="false" />
-            <element signature="e#1761#1762#0" expanded="false" />
-            <element signature="e#1791#1792#0" expanded="false" />
-            <element signature="method#doPost#0;class#HttpClientUtil#0" expanded="false" />
-            <element signature="method#doPostJson#0;class#HttpClientUtil#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-common/src/main/java/cn/longzzai/utils/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-common/src/main/java/cn/longzzai/myenum/ResultEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/mapper/MinorCateMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <marker date="1505571886912" expanded="true" signature="4209:4335" ph="select from minor_cate" />
-            <marker date="1505571886912" expanded="true" signature="4551:4631" ph="delete from " />
-            <marker date="1505571886912" expanded="true" signature="4860:4882" ph="delete from " />
-            <marker date="1505571886912" expanded="true" signature="5187:5388" ph="insert into minor_cate... " />
-            <marker date="1505571886912" expanded="true" signature="6536:6567" ph="select count... minor_cate" />
-            <marker date="1505571886912" expanded="true" signature="7581:7793" ph="update minor... " />
-            <marker date="1505571886912" expanded="true" signature="8129:8451" ph="update minor... " />
-            <marker date="1505571886912" expanded="true" signature="8676:8870" ph="update minor... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/mapper/MajorCateMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="72" lean-forward="false" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
-          <folding>
-            <marker date="1505635282825" expanded="true" signature="4240:4366" ph="select from major_cate" />
-            <marker date="1505635282825" expanded="true" signature="4583:4663" ph="delete from " />
-            <marker date="1505635282825" expanded="true" signature="4893:4915" ph="delete from " />
-            <marker date="1505635282825" expanded="true" signature="5222:5421" ph="insert into major_cate... " />
-            <marker date="1505635282825" expanded="true" signature="6575:6606" ph="select count... major_cate" />
-            <marker date="1505635282825" expanded="true" signature="7625:7835" ph="update major... " />
-            <marker date="1505635282825" expanded="true" signature="8173:8495" ph="update major... " />
-            <marker date="1505635282825" expanded="true" signature="8721:8913" ph="update major... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/VO/MajorCateListVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MajorCateService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/java/cn/longzzai/controller/MajorCateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/VO/MinorCateVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/misc/URLClassPath.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="690" column="0" lean-forward="false" selection-start-line="690" selection-start-column="0" selection-end-line="690" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/utils/UpdateMajorFromOnline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-pojo/src/main/java/cn/longzzai/pojo/MajorCate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/VO/CateAllListVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/VO/CateVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/utils/UpdateCateAllFromOnline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/mapper/MinorCateMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MinorCateService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="41" column="53" lean-forward="false" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-328">
-          <caret line="48" column="44" lean-forward="false" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.1.3.RELEASE/spring-aop-4.1.3.RELEASE-sources.jar!/org/springframework/aop/support/AopUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="316" column="0" lean-forward="false" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.1.3.RELEASE/spring-aop-4.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.1.3.RELEASE/spring-tx-4.1.3.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding>
-            <element signature="e#3912#3913#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.1.3.RELEASE/spring-tx-4.1.3.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="266" column="0" lean-forward="false" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="48" column="11" lean-forward="false" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MajorCateServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="86" column="9" lean-forward="false" selection-start-line="83" selection-start-column="30" selection-end-line="86" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/MinorCateServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="98" column="33" lean-forward="false" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-pojo/src/main/java/cn/longzzai/pojo/MinorCate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-web/src/main/java/cn/longzzai/controller/MinorCateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding>
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1367#1368#0" expanded="true" />
-            <element signature="e#1873#1874#0" expanded="true" />
-            <element signature="e#1930#1931#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-mapper/src/main/java/cn/longzzai/mapper/BookDetailMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhuishu-manager/zhuishu-manager-service/src/main/java/cn/longzzai/service/BookDetailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>

@@ -83,7 +83,7 @@ public class MajorCateServiceImpl implements MajorCateService {
             majorCateMapper.updateByPrimaryKey(majorCate);
         } catch (Exception e) {
             log.error("【书籍主分类】 更新主分类失败 ，e={}" ,e);
-            throw new BookException(ResultEnum.BOOK_UPDATE_FAILD);
+            throw new BookException(ResultEnum.BOOK_CATE_UPDATE_FAILD);
         }
         return ZzaiResult.ok();
     }

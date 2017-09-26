@@ -1,6 +1,8 @@
+cn\longzzai\pojo\PageListResult.class
+cn\longzzai\exception\BookException.class
+cn\longzzai\myenum\ResultEnum.class
 cn\longzzai\utils\EnumUtil.class
 cn\longzzai\myenum\CodeEnum.class
+cn\longzzai\utils\CopyObjectUtil.class
 cn\longzzai\utils\MybatisGenerateMapperUtil.class
-cn\longzzai\exception\BookException.class
 cn\longzzai\pojo\ZzaiResult.class
-cn\longzzai\myenum\ResultEnum.class

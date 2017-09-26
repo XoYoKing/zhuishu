@@ -14,7 +14,10 @@ public enum ResultEnum implements CodeEnum{
     BOOK_CATE_NOT_EXIST( 2 , "书籍分类不存在") ,
     BOOK_CATE_DELETE_FAILD(3 , "删除书籍分类失败"),
     BOOK_CATE_NOT_FIND(4 ,"未找到分类"),
-    BOOK_UPDATE_FAILD(5 ,"更新书籍分类失败"),
+    BOOK_CATE_UPDATE_FAILD(5 ,"更新书籍分类失败"),
+    BOOK_NOT_FIND( 6 , "未找到该书籍") ,
+    BOOK_ADD_FAILD(7 ,"添加书籍失败"),
+    BOOK_UPDATE_FAILD(8 ,"更新书籍失败"),
     ;
     private int code;
     private String msg;

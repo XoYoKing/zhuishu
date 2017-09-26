@@ -31,6 +31,7 @@ public class MinorCateController {
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     @ResponseBody
     public ZzaiResult list() {
+        log.info("查询所有副分类");
         return minorCateService.findAll();
     }
 

@@ -102,7 +102,7 @@ public class MinorCateServiceImpl implements MinorCateService {
             minorCateMapper.updateByPrimaryKey(minorCate);
         } catch (Exception e) {
             log.error("【书籍副分类】 更新副分类失败 ，e={}", e.getMessage());
-            throw new BookException(ResultEnum.BOOK_UPDATE_FAILD);
+            throw new BookException(ResultEnum.BOOK_CATE_UPDATE_FAILD);
         }
         return ZzaiResult.ok();
     }
